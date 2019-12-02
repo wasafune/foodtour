@@ -13,7 +13,7 @@ export default function SearchForm(props) {
   const [term, setTerm] = useState('')
   const [location, setLocation] = useState('')
   const [range, setRange] = useState(10)
-  const [limit, setLimit] = useState(5)
+  const [limit, setLimit] = useState(10)
   const [sortBy, setSortBy] = useState('rating')
 
   const handleSubmit = (event) => {
