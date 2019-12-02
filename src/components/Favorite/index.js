@@ -9,11 +9,11 @@ export default function Favorite() {
   const classes = useStyles()
   const { savedTourCount, applyFavoriteTour, removeFavoriteTour } = useContext(TourContext)
 
-  const [favorites, setFavorites] = useState(JSON.parse(localStorage.getItem('tourFavorites') || []))
+  const [favorites, setFavorites] = useState(JSON.parse(localStorage.getItem('tourFavorites') || '{}'))
 
 
   useEffect(() => {
-    setFavorites(JSON.parse(localStorage.getItem('tourFavorites') || '[]'))
+    setFavorites(JSON.parse(localStorage.getItem('tourFavorites') || '{}'))
   }, [savedTourCount])
 
   const favoriteButtons = Object.keys(favorites).map((key, i) => (
