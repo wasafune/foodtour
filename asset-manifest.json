@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/foodtour/static/css/main.d83f6bd9.chunk.css",
-    "main.js": "/foodtour/static/js/main.96064207.chunk.js",
-    "main.js.map": "/foodtour/static/js/main.96064207.chunk.js.map",
+    "main.js": "/foodtour/static/js/main.a574a256.chunk.js",
+    "main.js.map": "/foodtour/static/js/main.a574a256.chunk.js.map",
     "runtime-main.js": "/foodtour/static/js/runtime-main.c2d85f2e.js",
     "runtime-main.js.map": "/foodtour/static/js/runtime-main.c2d85f2e.js.map",
     "static/js/2.99e9e134.chunk.js": "/foodtour/static/js/2.99e9e134.chunk.js",
     "static/js/2.99e9e134.chunk.js.map": "/foodtour/static/js/2.99e9e134.chunk.js.map",
     "index.html": "/foodtour/index.html",
-    "precache-manifest.8fa7af8efd79ef2687727229631851f9.js": "/foodtour/precache-manifest.8fa7af8efd79ef2687727229631851f9.js",
+    "precache-manifest.50ef2849b8138adb3d2bcd5ab52598f2.js": "/foodtour/precache-manifest.50ef2849b8138adb3d2bcd5ab52598f2.js",
     "service-worker.js": "/foodtour/service-worker.js",
     "static/css/main.d83f6bd9.chunk.css.map": "/foodtour/static/css/main.d83f6bd9.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.c2d85f2e.js",
     "static/js/2.99e9e134.chunk.js",
     "static/css/main.d83f6bd9.chunk.css",
-    "static/js/main.96064207.chunk.js"
+    "static/js/main.a574a256.chunk.js"
   ]
 }
