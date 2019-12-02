@@ -259,7 +259,7 @@ export default function TourDnd() {
         <Box visibility={tourConfirmed ? "visible" : "hidden"}>
           <TextField className={classes.textField} id="term-field" label="Cool tour name here!" value={tourName} onChange={event => setTourName(event.target.value)}/>
           <Box>
-            <Button variant="contained" color="primary">Download</Button>
+            {/* <Button variant="contained" color="primary">Download</Button> */}
             <Button variant="contained" color="primary" onClick={() => setFavoriteTour(tourName)}>Favorite</Button>
           </Box>
         </Box>
