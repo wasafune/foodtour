@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.45b47251.chunk.css",
-    "main.js": "/my-app/static/js/main.791ea807.chunk.js",
-    "main.js.map": "/my-app/static/js/main.791ea807.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.6dfea440.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.6dfea440.js.map",
-    "static/js/2.99e9e134.chunk.js": "/my-app/static/js/2.99e9e134.chunk.js",
-    "static/js/2.99e9e134.chunk.js.map": "/my-app/static/js/2.99e9e134.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.d7e5f140af70527bfd5c864bb8fdf6ca.js": "/my-app/precache-manifest.d7e5f140af70527bfd5c864bb8fdf6ca.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/main.45b47251.chunk.css.map": "/my-app/static/css/main.45b47251.chunk.css.map"
+    "main.css": "/foodtour/static/css/main.45b47251.chunk.css",
+    "main.js": "/foodtour/static/js/main.f61ad165.chunk.js",
+    "main.js.map": "/foodtour/static/js/main.f61ad165.chunk.js.map",
+    "runtime-main.js": "/foodtour/static/js/runtime-main.c2d85f2e.js",
+    "runtime-main.js.map": "/foodtour/static/js/runtime-main.c2d85f2e.js.map",
+    "static/js/2.99e9e134.chunk.js": "/foodtour/static/js/2.99e9e134.chunk.js",
+    "static/js/2.99e9e134.chunk.js.map": "/foodtour/static/js/2.99e9e134.chunk.js.map",
+    "index.html": "/foodtour/index.html",
+    "precache-manifest.526608b4a8ae12d79a2f33fb1a5f433e.js": "/foodtour/precache-manifest.526608b4a8ae12d79a2f33fb1a5f433e.js",
+    "service-worker.js": "/foodtour/service-worker.js",
+    "static/css/main.45b47251.chunk.css.map": "/foodtour/static/css/main.45b47251.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6dfea440.js",
+    "static/js/runtime-main.c2d85f2e.js",
     "static/js/2.99e9e134.chunk.js",
     "static/css/main.45b47251.chunk.css",
-    "static/js/main.791ea807.chunk.js"
+    "static/js/main.f61ad165.chunk.js"
   ]
 }
