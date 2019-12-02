@@ -10,8 +10,6 @@ import { TourContext } from '../contexts/TourContext'
 const useStyles = makeStyles(theme => ({
   container: {
     padding: 0,
-    height: '100vh',
-    backgroundColor: 'teal',
   },
   boxSearchFull: {
     display: 'flex',

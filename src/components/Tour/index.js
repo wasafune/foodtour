@@ -72,12 +72,16 @@ const useStyles = makeStyles(theme => ({
   },
   boxBottom: {
     textAlign: 'center',
-    padding: '12px 0 0 0',
+    padding: '12px 0',
+    backgroundColor: 'burlywood',
   },
   textField: {
     backgroundColor: 'white',
     width: 260,
     margin: '6px 0',
+  },
+  p: {
+    margin: '0 0 4px 0',
   },
 }))
 
@@ -250,6 +254,7 @@ export default function TourDnd() {
         </Box>
       </DragDropContext>
       <Box className={classes.boxBottom}>
+        <p className={classes.p}>Drag and drop from RED to GREEN to create your tour!</p>
         <Button variant="contained" color="primary" onClick={handleConfirmClick}>{tourConfirmed ? "Back to Edit" : "Confirm Tour!"}</Button>
         <Box visibility={tourConfirmed ? "visible" : "hidden"}>
           <TextField className={classes.textField} id="term-field" label="Cool tour name here!" value={tourName} onChange={event => setTourName(event.target.value)}/>

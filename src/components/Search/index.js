@@ -9,7 +9,7 @@ import Favorite from '../Favorite'
 export default function SearchForm(props) {
   const classes = useStyles()
 
-  const { tourInput, updateTour } = useContext(TourContext)
+  const { tour, tourInput, updateTour } = useContext(TourContext)
   const [term, setTerm] = useState('')
   const [location, setLocation] = useState('')
   const [range, setRange] = useState(10)
@@ -33,6 +33,7 @@ export default function SearchForm(props) {
 
   return (
     <form className={classes.container} onSubmit={handleSubmit}>
+      <h1 className={classes.h1} style={{ display: tour.length ? "none" : "block"}}>Food Tour App!</h1>
       <Box className={classes.box}>
         <TextField className={classes.textFieldLeft} id="term-field" label="Find..." value={term} onChange={event => setTerm(event.target.value)}/>
         <TextField className={classes.textFieldMain} id="location-field" label="Location" value={location} onChange={event => setLocation(event.target.value)}/>
@@ -44,10 +45,10 @@ export default function SearchForm(props) {
         <Box>
           <InputLabel>Search Radius</InputLabel>
           <Select className={classes.select} value={range} label="Search Radius" onChange={event => setRange(event.target.value)}>
-            <MenuItem value={5}>5</MenuItem>
-            <MenuItem value={10}>10</MenuItem>
-            <MenuItem value={15}>15</MenuItem>
-            <MenuItem value={20}>20</MenuItem>
+            <MenuItem value={5}>5 miles</MenuItem>
+            <MenuItem value={10}>10 miles</MenuItem>
+            <MenuItem value={15}>15 miles</MenuItem>
+            <MenuItem value={20}>20 miles</MenuItem>
           </Select>
         </Box>
         <Box>
@@ -104,5 +105,8 @@ const useStyles = makeStyles(theme => ({
   },
   select: {
     width: 150,
+  },
+  h1: {
+    textAlign: 'center',
   },
 }))
